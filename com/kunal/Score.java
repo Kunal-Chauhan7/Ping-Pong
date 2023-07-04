@@ -6,7 +6,12 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class Score extends Rectangle{
-    Score(){
+    static int GAME_WIDTH;
+    static int GAME_HEIGHT;
+    int Player1;
+    int Player2;
+
+    Score(int GAME_WIDTH , int GAME_HEIGHT){
 
     }
     public void draw(Graphics g){
